@@ -1,7 +1,4 @@
 
-
-
-
 # !/usr/bin/python2
 from scapy.all import *
 # importing scapy which will help to craft packets
