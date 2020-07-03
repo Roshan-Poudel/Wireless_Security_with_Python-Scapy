@@ -3,5 +3,5 @@ Wireless Beacon Frames are transmitted by the Wireless Access Points. Connection
 
  To Execute the Script
 git clone https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git  
-cd Wireless_Security_with_Python-Scapy/
-sudo python2 Beacon_Frames_Scanner.py
+cd Wireless_Security_with_Python-Scapy/  
+sudo python2 Beacon_Frames_Scanner.py  
