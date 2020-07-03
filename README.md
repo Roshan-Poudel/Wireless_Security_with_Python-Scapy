@@ -1,8 +1,10 @@
-#### Note: All the Script of this repository Required linux Operating System and Support of Network Interface Card in Monitor Mode.
-
+#### Note: All the Python scripts of this repository Requires linux Operating System and Support of Network Interface Card in Monitor Mode.
 
 # 1. Beacon_Frames_Scanner.py 
-This Script Scans and provides all the Beacons Frames Discovered by the Network Interface Card. Wireless Beacon Frames are transmitted by the Wireless Access Points. Connection between Access Points and End Devices occur with help of Beacon Frames emitted by WLAN. In order to execute the script you need to have linux Operating System and Support of Network Interface Card into Monitor Mode. In order to turn the Network Interface card we need to install aircrack-ng in the linux machine.  
+This Script Scans and provides all the Beacons Frames Discovered by the Network Interface Card. Wireless Beacon Frames are transmitted by the Wireless Access Points. Connection between Access Points and End Devices occur with help of Beacon Frames emitted by WLAN. Beacons Frames carry several information like SSID, MAC-Addresses of Access Point,  
+
+## Requirements  
+
 
 #### To Execute the Script:    
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
