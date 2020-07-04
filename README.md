@@ -11,8 +11,8 @@ c. Aircrack-ng and Scapy are required to turn NIC card into Monitor Mode and Sni
 *sudo apt install aircrack-ng*          
 **Step 2:** Installing Scapy  
 *sudo apt install scapy*    
-**Step 3:** Find you Wirless Interface name:    
-Type *iwconfig* in Terminal and find Wireless Interface name. It gives Address of Ethernet, Loopback, Wireless Interface.My Wireless Interface name is *wlp3s0*    
+**Step 3:** Identifying Wirless Interface name:    
+Type *iwconfig* in Terminal to find Wireless Interface name. It outputs Address of Ethernet, Loopback, Wireless Interface.My Wireless Interface name is *wlp3s0*    
 #### To Execute the Script:    
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 cd Wireless_Security_with_Python-Scapy/  
