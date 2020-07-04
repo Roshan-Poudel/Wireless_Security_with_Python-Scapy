@@ -16,5 +16,5 @@ Type *iwconfig* in Terminal to find your Wireless Interface name. This command o
 #### To Execute the Script:    
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 cd Wireless_Security_with_Python-Scapy/    
-sudo airmon-ng <your_wireless_interface_name>  
+sudo airmon-ng **your_wireless_interface_name**
 sudo python2 Beacon_Frames_Scanner.py  
