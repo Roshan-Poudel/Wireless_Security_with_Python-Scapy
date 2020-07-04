@@ -5,7 +5,8 @@ From this repository the script Beacon_Frames_Scanner.py scans and provides all 
 #### Requirements  
 Some of the Requirements to Execute the Script are:    
 a. Linux Operating System { I am using Linux Mint }  
-b. Support of Network Interface Card into Monitor Mode  
+b. Support of Network Interface Card into Monitor Mode 
+c. Aircrack-ng and Scapy are required to turn NIC card into Monitor Mode and Sniff Packets  
 **Step 1:** Installing Aircrack-ng to turn Network INterface card into Monitor Mode    
 *sudo apt install aircrack-ng*          
 **Step 2:** Installing Scapy  
