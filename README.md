@@ -7,8 +7,9 @@ Some of the Requirements to Execute the Script are:
 a. Linux Operating System { I am using Linux Mint }  
 b. Support of Network Interface Card into Monitor Mode  
 **Step 1:** Installing Aircrack-ng to turn Network INterface card into Monitor Mode    
-sudo apt install aircrack-ng      
-**Step 2:** Installing Scapy   
+sudo apt install aircrack-ng        
+**Step 2:** Installing Scapy  
+sudo apt install scapy  
 #### To Execute the Script:    
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 cd Wireless_Security_with_Python-Scapy/  
