@@ -18,4 +18,4 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 *cd Wireless_Security_with_Python-Scapy/*      
 *sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
 *sudo python2 Beacon_Frames_Scanner.py*      
-** Channel Hoping: By deafault Scapy dont Support Channel Hoping So, this script only capture the Beacon Frame of Only One Channel. Now Open another terminal (ctrl + shift + N ) and type airodump-ng <**Wireless Interface name** +mon>  example: for me *sudo airmon-ng start wlp3s0mon*    
+**Start Channel Hoping:** By deafault Scapy dont Support Channel Hoping So, this script only capture the Beacon Frame of Only One Channel. Now Open another terminal (ctrl + shift + N ) and type airodump-ng <**Wireless Interface name** +mon>  example: for me *sudo airmon-ng start wlp3s0mon*    
