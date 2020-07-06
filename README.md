@@ -1,4 +1,4 @@
-#### Note: The Python scripts of this repository Requires linux Operating System and Support of Network Interface Card in Monitor Mode.
+#### Note: All Python scripts of this Repository require the following requirements to be fullfilled.
 #### Requirements  
  Requirements to Execute the Script are:    
 a. Linux Operating System { I am using Linux Mint }    
