@@ -13,7 +13,7 @@ Type *iwconfig* in Terminal to find your Wireless Interface name. This command o
 # 1. Beacon_Frames_Scanner.py 
 From this repository the script Beacon_Frames_Scanner.py scans and provides all the Beacons Frames Discovered by the Network Interface Card. Wireless Beacon Frames are transmitted by the Wireless Access   Points. Connection between Access Points and End Devices occur with help of Beacon Frames emitted by WLAN. Beacons Frames carry several information like Time-stamp, SSID, MAC-Addresses of Access Point, Beacon Interval, Supported Rates. Beacon frames are transmitted  periodically by Access Points to indicate their presence. Whenever we turn on the Wifi Icon in our Mobile Phone; we see lots of Wirless SSID discovered by our Phone. This is due, Access Points are emitting the Beacons Frames and our phones discover them to inform the user. Then, there further connection processes if the user wants to connect to the Access Point.  
 <br/>
-#### To Execute the Script:    
+#### To Execute the Script:        (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 *cd Wireless_Security_with_Python-Scapy/*      
 *sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
@@ -28,7 +28,8 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 
 # 2. Probes_Request_Scanner.py 
 From this repository; the script Probes_Request_Scanner.py  scans and provides all the Probes Request Discovered by the Network Interface Card. Wireless Probe Requests are the packets transmitted by the Wifi clients (i.e phone, laptops etc). Probe Request contain the information about the SSID in which the device was previously connected. Lets assume that our phone connected to our Home Wifi Network with SSID "Happy Home" then whenever we are outside the range of Home Wifi Network the phone starts searching the SSID with name "Happy Home". While Searching like these previously connected wifi Network , client devices transmit a type of Packet called **Wireless Probes Request.** This is the reason why attacker suceed in Wifi Phising attack.By Analyzing Probes Request attackers find the SSID in which client devices were previously connected and setup the  Access Point with same SSID which is also called **Evil Twin Attack**. On the light of this, connecting to Unknown Wireless Networks is always a threat. This is why you should always turn off the Wifi Icon in our client devices when not in use.  
-#### To Execute the Script:    
+
+#### To Execute the Script:    (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 *cd Wireless_Security_with_Python-Scapy/*      
 *sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
