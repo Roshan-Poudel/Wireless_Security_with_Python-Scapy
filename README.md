@@ -1,6 +1,6 @@
 #### Note: All Python scripts of this Repository require the following requirements to be fullfilled.
 ## Requirements  
- Requirements to Execute the Script are:    
+Fullfill the Following requirments before executing any script of this repository.  
 a. Linux Operating System { I am using Linux Mint }    
 b. Support of Network Interface Card into Monitor Mode   
 c. Aircrack-ng and Scapy are required to turn NIC card into Monitor Mode and Sniff Packets respectively  
