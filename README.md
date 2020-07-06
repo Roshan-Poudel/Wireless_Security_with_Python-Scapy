@@ -26,4 +26,5 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 
 <img src="https://github.com/Papu11/images/blob/master/paps.png">
 
-
+# Probes_Request_Scanner.py 
+From this repository the script Probes_Request_Scanner.py  scans and provides all the Probes Request Discovered by the Network Interface Card. Wireless Probe Requests are the packets transmitted by the Wifi clients (i.e phone, laptops etc). Probe Request contain the information about the SSID in which the device was previously connected. Lets assume that our phone connected to our Home Wifi Network with SSID "Happy Home" then whenever we are outside the range of Home Wifi Network the phone starts searching the SSID with name "Happy Home". While Searching like these previously connected wifi Network , client devices transmit a type of Packet called **Wireless Probes Request.**
