@@ -1,5 +1,5 @@
 #### Note: All Python scripts of this Repository require the following requirements to be fullfilled.
-#### Requirements  
+## Requirements  
  Requirements to Execute the Script are:    
 a. Linux Operating System { I am using Linux Mint }    
 b. Support of Network Interface Card into Monitor Mode   
@@ -17,7 +17,8 @@ From this repository the script Beacon_Frames_Scanner.py scans and provides all 
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 *cd Wireless_Security_with_Python-Scapy/*      
 *sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
-*sudo python2 Beacon_Frames_Scanner.py*   
+*sudo python2 Beacon_Frames_Scanner.py*   <br/>  
+<br/>  
 <img src="https://github.com/Papu11/images/blob/master/1.png">
 **Start Channel Hoping:** Great, Script Started to Provide captured Beacons Frames to us. There are many Wireless Channels and changing from one channel to another is called Channel Hopping. By Default Scapy don't Support Channel Hoping So, until now we only captured the Beacon Frame of Only One Wireless Channel. At the moment our NIC card is in the Monitor Mode now, lets find our Wireless Interface name in Monitor Mode. Now, Open another terminal (ctrl + shift + N ) and type **iwconfig** Now, my Wireless interface is wlp3s0mon. **Note your new Wireless Interface name**. Lets start Channel Hoping, type sudo *airodump-ng* <**new Wireless Interface name**>  example: for me *sudo airodump-ng wlp3s0mon* . Now, Channel Hopping started and the script which is running in another Terminal is now providing the Beacon Frames of all Wireless Channel.   
 
