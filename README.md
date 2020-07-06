@@ -32,6 +32,6 @@ From this repository; the script Probes_Request_Scanner.py  scans and provides a
 git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
 *cd Wireless_Security_with_Python-Scapy/*      
 *sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
-*sudo python2 Probes_Request_Scanner.py
+*sudo python2 Probes_Request_Scanner.py*
 
 <img src="https://github.com/Papu11/images/blob/master/probes.png"> 
