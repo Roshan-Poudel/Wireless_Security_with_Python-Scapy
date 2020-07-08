@@ -36,3 +36,5 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 *sudo python2 Probes_Request_Scanner.py*
 
 <img src="https://github.com/Papu11/images/blob/master/probes.png"> 
+# 3. Discovering_Hidden_Wifi.py
+From this repository; the script Discovering_Hidden_Wifi.py  scans and provides all the Probes Request Discovered by the Network Interface Card. A hidden Wireless network doesn't broadcasts its SSID in the environment. This depicts the Access Point doesnot transmit its SSID in the Beacon Frame around the environment. The profound use of hidden wireless network is for security concerns. Hiding the network name can prevent less technically inclined people from connecting to the network. However, for a Network/Security Professionals this is just a security through obscurity. Hence, SSID can be Discovered Analyzing all Dot11 Authentication request because at some point SSID name travel in air after Sucessful Authentication.
