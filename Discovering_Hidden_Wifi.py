@@ -18,9 +18,3 @@ def hidden_AP_discovery(packet):
 sniff(prn=hidden_AP_discovery,count=0)
 # Continous Sniffing using Scapy Sniff Function
 
-'''30:B5:C2:2E:6B:FC
-A hidden wireless network doesn't broadcasts its SSID in the environment. The profound use of 
-hidden wireless network is for security concerns. Hiding the network name can prevent less technically inclined people 
-from connecting to the network, but can be discovered analyzing all Dot11 authentication request because all
-SSID name travel in air if authentication is sucessful. Ultimately the SSID name need to pass through the air whenever an client completes authentication process. 
-'''
