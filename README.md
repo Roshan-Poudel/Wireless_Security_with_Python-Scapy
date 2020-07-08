@@ -39,3 +39,11 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 
 # 3.Discovering_Hidden_Wifi.py      
 From this repository; the script Discovering_Hidden_Wifi.py  scans and provides all the Probes Request Discovered by the Network Interface Card. A hidden Wireless network doesn't broadcasts its SSID in the environment. This depicts the Access Point doesnot transmit its SSID in the Beacon Frame around the environment. The profound use of hidden wireless network is for security concerns. Hiding the network name can prevent less technically inclined people from connecting to the network. However, for a Network/Security Professionals this is just a security through obscurity. Hence, SSID can be Discovered Analyzing all Dot11 Authentication request because at some point SSID name travel in air after Sucessful Authentication.
+
+#### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
+git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*      
+*cd Wireless_Security_with_Python-Scapy/*      
+*sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
+*sudo python2 Discovering_Hidden_Wifi.py*
+
+**Start Channel Hoping:** There are many Wireless Channels and changing from one channel to another is called Channel Hopping. By Default Scapy don't Support Channel Hoping So, until now we are in only One Wireless Channel. At the moment our NIC card is in the Monitor Mode now, lets find our Wireless Interface name in Monitor Mode. Now, Open another terminal (ctrl + shift + N ) and type **iwconfig** Now, my Wireless interface is wlp3s0mon. **Note your new Wireless Interface name**. Lets start Channel Hoping, type sudo *airodump-ng* <**new Wireless Interface name**>  example: for me *sudo airodump-ng wlp3s0mon* . Now, Channel Hopping started and the script which is running in another Terminal is now providing the Hidden Wifi Networks of all Wireless Channel.   
