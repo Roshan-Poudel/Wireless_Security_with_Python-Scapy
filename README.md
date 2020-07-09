@@ -26,7 +26,18 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 
 <img src="https://github.com/Papu11/images/blob/master/paps.png">
 
-# 2. Discovering_Hidden_Wifi.py      
+# 2. Detecting-Deauthentication-Attack.py     
+From this repository; the script Detecting-Deauthentication-Attack.py. scans and provides all the Probes Request Discovered by the Network Interface Card. A Wi-Fi deauthentication attack is a type of Denial-of-service attack that disrupts the communication between a user and a Wi-Fi wireless access point. This attack sends disassociate packets to one or more clients which are currently associated with a particular access point. A deauth attack disrupt the connection between the Access Point and Client. Until and Unless the attack is not stopped or channel of Access Point is not changed the client cannot connect to Access Point. Hackers usually need to deauth a user off of a network so they can: Capture WPA/WPA2 4-Way Handshakes by forcing a user to reconnect to the network and connect user to fake Access Point (Evil Twin Attack).   
+   
+#### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )  
+git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*        
+*cd Wireless_Security_with_Python-Scapy/*         
+*sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*     
+*sudo python2 Detecting-Deauthentication-Attack.py*    
+
+<img src="https://github.com/Papu11/images/blob/master/detect.png">
+
+# 3. Discovering_Hidden_Wifi.py      
 From this repository; the script Discovering_Hidden_Wifi.py  scans and provides all the Hidden WiFi discovered by the Network Interface Card. A hidden Wireless Network doesn't broadcasts its SSID in the environment. This depicts the Access Point doesnot transmit its SSID in the Beacon Frame around the environment. The profound use of hidden wireless network is for security concerns. Hiding the network name can prevent less technically inclined people from connecting to the network. However, for a Network/Security Professionals this is just a security through obscurity. Hence, SSID can be Discovered Analyzing all Dot11 Authentication request because at some point SSID name travel in air after Sucessful Authentication.
 
 #### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
@@ -39,7 +50,7 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 
 <img src="https://github.com/Papu11/images/blob/master/hidden.png"> 
 
-# 3. Probes_Request_Scanner.py 
+# 4. Probes_Request_Scanner.py 
 From this repository; the script Probes_Request_Scanner.py  scans and provides all the Probes Request Discovered by the Network Interface Card. Wireless Probe Requests are the packets transmitted by the Wifi clients (i.e phone, laptops etc). Probe Request contain the information about the SSID in which the device was previously connected. Lets assume that our phone connected to our Home Wifi Network with SSID "Happy Home" then whenever we are outside the range of Home Wifi Network the phone starts searching the SSID with name "Happy Home". While Searching like these previously connected wifi Network , client devices transmit a type of Packet called **Wireless Probes Request.** This is the reason why attacker suceed in Wifi Phising attack.By Analyzing Probes Request attackers find the SSID in which client devices were previously connected and setup the  Access Point with same SSID which is also called **Evil Twin Attack**. On the light of this, connecting to Unknown Wireless Networks is always a threat. This is why you should always turn off the Wifi Icon in our client devices when not in use.  
 
 #### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
@@ -50,16 +61,6 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 
 <img src="https://github.com/Papu11/images/blob/master/probes.png"> 
 
-# 4. Detecting-Deauthentication-Attack.py     
-From this repository; the script Detecting-Deauthentication-Attack.py. scans and provides all the Probes Request Discovered by the Network Interface Card. A Wi-Fi deauthentication attack is a type of Denial-of-service attack that disrupts the communication between a user and a Wi-Fi wireless access point. This attack sends disassociate packets to one or more clients which are currently associated with a particular access point. A deauth attack disrupt the connection between the Access Point and Client. Until and Unless the attack is not stopped or channel of Access Point is not changed the client cannot connect to Access Point. Hackers usually need to deauth a user off of a network so they can: Capture WPA/WPA2 4-Way Handshakes by forcing a user to reconnect to the network and connect user to fake Access Point (Evil Twin Attack).   
-   
-#### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )  
-git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*        
-*cd Wireless_Security_with_Python-Scapy/*         
-*sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*     
-*sudo python2 Detecting-Deauthentication-Attack.py*    
-
-<img src="https://github.com/Papu11/images/blob/master/detect.png">
 
 
   
