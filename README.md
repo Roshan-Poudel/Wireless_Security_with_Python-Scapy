@@ -59,5 +59,8 @@ git clone *https://github.com/Papu11/Wireless_Security_with_Python-Scapy.git*
 *sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*     
 *sudo python2 Detecting-Deauthentication-Attack.py*    
 
+<img src="https://github.com/Papu11/images/blob/master/detect.png">
 
-                                        Sharing to Community by: Roshan Poudel
+
+  
+                                              Sharing to Community by: Roshan Poudel
