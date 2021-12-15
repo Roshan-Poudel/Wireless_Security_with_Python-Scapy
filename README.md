@@ -21,16 +21,16 @@ From this repository the script Beacon_Frames_Scanner.py scans and provides all 
 <br/>
 #### To Execute the Script:       (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
 ```
-git clone *https://github.com/Roshan-Poudel/Wireless_Security_with_Python-Scapy.git*      
+git clone https://github.com/Roshan-Poudel/Wireless_Security_with_Python-Scapy.git      
 ```
 ```
-*cd Wireless_Security_with_Python-Scapy/*      
+cd Wireless_Security_with_Python-Scapy/     
 ```
 ```
-*sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*  
+sudo airmon-ng start <**Wireless Interface name**>       example: for me *sudo airmon-ng start wlp3s0*  
 ```
 ```
-*sudo python2 Beacon_Frames_Scanner.py*   
+sudo python2 Beacon_Frames_Scanner.py  
  ```
 <img src="https://github.com/Roshan-Poudel/images/blob/master/1.png">  
 
