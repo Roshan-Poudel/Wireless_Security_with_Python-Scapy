@@ -4,6 +4,7 @@
 a. Linux Operating System { I am using Linux Mint }    
 b. Support of Network Interface Card into Monitor Mode   
 c. Aircrack-ng and Scapy are required to turn NIC card into Monitor Mode and Sniff Packets respectively  
+
 **Step 1:** Installing Aircrack-ng to turn Network Interface Card into Monitor Mode    
 ```
 sudo apt install aircrack-ng
