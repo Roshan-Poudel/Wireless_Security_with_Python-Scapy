@@ -44,11 +44,18 @@ sudo python2 Beacon_Frames_Scanner.py
 From this repository; the script Detecting-Deauthentication-Attack.py. detect and provides information if the wireless deauthentication attack in the environment. A Wi-Fi deauthentication attack is a type of Denial-of-service attack that disrupts the communication between a user and a Wi-Fi wireless access point. This attack sends disassociate packets to one or more clients which are currently associated with a particular access point. A deauth attack disrupt the connection between the Access Point and Client. Until and Unless the attack is not stopped or channel of Access Point is not changed the client cannot connect to Access Point. Hackers usually need to deauth a user off of a network so they can: Capture WPA/WPA2 4-Way Handshakes by forcing a user to reconnect to the network and connect user to fake Access Point (Evil Twin Attack).   
    
 #### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )  
-git clone *https://github.com/Roshan-Poudel/Wireless_Security_with_Python-Scapy.git*        
-*cd Wireless_Security_with_Python-Scapy/*         
-*sudo airmon-ng start <**Wireless Interface name**>*                    example: for me *sudo airmon-ng start wlp3s0*     
+```
+git clone *https://github.com/Roshan-Poudel/Wireless_Security_with_Python-Scapy.git*
+```
+``` 
+*cd Wireless_Security_with_Python-Scapy/*
+```
+```      
+*sudo airmon-ng start <**Wireless Interface name**>*                    
+```
+```
 *sudo python2 Detecting-Deauthentication-Attack.py*    
-
+```
 <img src="https://github.com/Roshan-Poudel/images/blob/master/detect.png">
 
 # 3. Discovering_Hidden_Wifi.py      
