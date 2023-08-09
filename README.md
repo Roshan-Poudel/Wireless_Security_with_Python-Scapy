@@ -32,7 +32,7 @@ sudo airmon-ng start <**Wireless Interface name**>       example: for me *sudo a
 ```
 ```
 sudo python2 Beacon_Frames_Scanner.py  
- ```
+```
 <img src="https://github.com/Roshan-Poudel/images/blob/master/1.png">  
 
 **Start Channel Hoping:** Great, Script Started to Provide captured Beacons Frames to us. There are many Wireless Channels and changing from one channel to another is called Channel Hopping. By Default Scapy don't Support Channel Hoping So, until now we only captured the Beacon Frame of Only One Wireless Channel. At the moment our NIC card is in the Monitor Mode now, lets find our Wireless Interface name in Monitor Mode. Now, Open another terminal (ctrl + shift + N ) and type **iwconfig** Now, my Wireless interface is wlp3s0mon. **Note your new Wireless Interface name**. Lets start Channel Hoping, type sudo *airodump-ng* <**new Wireless Interface name**>  example: for me *sudo airodump-ng wlp3s0mon* . Now, Channel Hopping started and the script which is running in another Terminal is now providing the Beacon Frames of all Wireless Channel.   
@@ -82,7 +82,7 @@ git clone *https://github.com/Roshan-Poudel/Wireless_Security_with_Python-Scapy.
 # 4. Probes_Request_Scanner.py 
 From this repository; the script Probes_Request_Scanner.py  scans and provides all the Probes Request Discovered by the Network Interface Card. Wireless Probe Requests are the packets transmitted by the Wifi clients (i.e phone, laptops etc). Probe Request contain the information about the SSID in which the device was previously connected. Lets assume that our phone connected to our Home Wifi Network with SSID "Happy Home" then whenever we are outside the range of Home Wifi Network the phone starts searching the SSID with name "Happy Home". While Searching like these previously connected wifi Network , client devices transmit a type of Packet called **Wireless Probes Request.** This is the reason why attacker suceed in Wifi Phising attack.By Analyzing Probes Request attackers find the SSID in which client devices were previously connected and setup the  Access Point with same SSID which is also called **Evil Twin Attack**. On the light of this, connecting to Unknown Wireless Networks is always a threat. This is why you should always turn off the Wifi Icon in our client devices when not in use.  
 
-#### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in Top of this Page )
+#### To Execute the Script:   (Note: Fullfill all necessities mentioned in Requirement Tab in top of this Page )
 ```
 git clone *https://github.com/Roshan-Poudel/Wireless_Security_with_Python-Scapy.git*      
 ```
